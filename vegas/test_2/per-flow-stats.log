@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.912145
+
+-- Curve "Flow 1: vegas ->":
+Average throughput    : 12.924994 Mbps
+Average one-way delay : 57.833641 ms
+Loss                  : 0.228288 %
+
+-- Curve "Flow 2: auto_0_2 ->":
+Average throughput    : 6.802553 Mbps
+Average one-way delay : 57.506141 ms
+Loss                  : 0.210528 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: vegas ->":
+Median per-packet one-way delay          : 56.616068 ms
+Average per-packet one-way delay         : 57.833641 ms
+95th percentile per-packet one-way delay : 65.953970 ms
+
+-- Curve "Flow 2: auto_0_2 ->":
+Median per-packet one-way delay          : 56.637049 ms
+Average per-packet one-way delay         : 57.506141 ms
+95th percentile per-packet one-way delay : 65.760851 ms
+

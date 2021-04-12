@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.606938
+
+-- Curve "Flow 1: vivace ->":
+Average throughput    : 1.910766 Mbps
+Average one-way delay : 76.587789 ms
+Loss                  : 3.457864 %
+
+-- Curve "Flow 2: auto_0_8 ->":
+Average throughput    : 17.661207 Mbps
+Average one-way delay : 77.191759 ms
+Loss                  : 1.687340 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: vivace ->":
+Median per-packet one-way delay          : 73.240995 ms
+Average per-packet one-way delay         : 76.587789 ms
+95th percentile per-packet one-way delay : 112.550974 ms
+
+-- Curve "Flow 2: auto_0_8 ->":
+Median per-packet one-way delay          : 73.686123 ms
+Average per-packet one-way delay         : 77.191759 ms
+95th percentile per-packet one-way delay : 113.452911 ms
+

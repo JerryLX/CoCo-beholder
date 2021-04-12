@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.758043
+
+-- Curve "Flow 1: indigo ->":
+Average throughput    : 4.272080 Mbps
+Average one-way delay : 72.062586 ms
+Loss                  : 1.677650 %
+
+-- Curve "Flow 2: auto_0_6 ->":
+Average throughput    : 15.368116 Mbps
+Average one-way delay : 73.893326 ms
+Loss                  : 1.166752 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: indigo ->":
+Median per-packet one-way delay          : 64.774990 ms
+Average per-packet one-way delay         : 72.062586 ms
+95th percentile per-packet one-way delay : 113.427877 ms
+
+-- Curve "Flow 2: auto_0_6 ->":
+Median per-packet one-way delay          : 66.711903 ms
+Average per-packet one-way delay         : 73.893326 ms
+95th percentile per-packet one-way delay : 114.660025 ms
+

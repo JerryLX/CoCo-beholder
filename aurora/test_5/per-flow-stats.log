@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.567307
+
+-- Curve "Flow 1: aurora ->":
+Average throughput    : 1.215651 Mbps
+Average one-way delay : 65.111375 ms
+Loss                  : 1.536908 %
+
+-- Curve "Flow 2: auto_0_5 ->":
+Average throughput    : 17.979089 Mbps
+Average one-way delay : 67.967135 ms
+Loss                  : 1.625349 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: aurora ->":
+Median per-packet one-way delay          : 57.579994 ms
+Average per-packet one-way delay         : 65.111375 ms
+95th percentile per-packet one-way delay : 102.329016 ms
+
+-- Curve "Flow 2: auto_0_5 ->":
+Median per-packet one-way delay          : 60.611010 ms
+Average per-packet one-way delay         : 67.967135 ms
+95th percentile per-packet one-way delay : 110.045910 ms
+

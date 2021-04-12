@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.880649
+
+-- Curve "Flow 1: cubic ->":
+Average throughput    : 6.279926 Mbps
+Average one-way delay : 104.741196 ms
+Loss                  : 1.012959 %
+
+-- Curve "Flow 2: test ->":
+Average throughput    : 13.597637 Mbps
+Average one-way delay : 104.434260 ms
+Loss                  : 0.189268 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: cubic ->":
+Median per-packet one-way delay          : 106.862068 ms
+Average per-packet one-way delay         : 104.741196 ms
+95th percentile per-packet one-way delay : 117.799997 ms
+
+-- Curve "Flow 2: test ->":
+Median per-packet one-way delay          : 105.452061 ms
+Average per-packet one-way delay         : 104.434260 ms
+95th percentile per-packet one-way delay : 117.027998 ms
+

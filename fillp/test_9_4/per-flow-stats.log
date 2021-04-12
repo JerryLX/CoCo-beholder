@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.936860
+
+-- Curve "Flow 1: fillp ->":
+Average throughput    : 7.341803 Mbps
+Average one-way delay : 103.019573 ms
+Loss                  : 18.869776 %
+
+-- Curve "Flow 2: auto_0_94 ->":
+Average throughput    : 12.490358 Mbps
+Average one-way delay : 105.286957 ms
+Loss                  : 5.248734 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: fillp ->":
+Median per-packet one-way delay          : 104.889870 ms
+Average per-packet one-way delay         : 103.019573 ms
+95th percentile per-packet one-way delay : 110.505819 ms
+
+-- Curve "Flow 2: auto_0_94 ->":
+Median per-packet one-way delay          : 106.189966 ms
+Average per-packet one-way delay         : 105.286957 ms
+95th percentile per-packet one-way delay : 111.599207 ms
+

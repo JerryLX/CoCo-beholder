@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.526287
+
+-- Curve "Flow 1: bbr ->":
+Average throughput    : 18.845043 Mbps
+Average one-way delay : 61.724087 ms
+Loss                  : 0.784278 %
+
+-- Curve "Flow 2: auto_0_3 ->":
+Average throughput    : 0.495724 Mbps
+Average one-way delay : 72.331850 ms
+Loss                  : 2.969104 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: bbr ->":
+Median per-packet one-way delay          : 55.250168 ms
+Average per-packet one-way delay         : 61.724087 ms
+95th percentile per-packet one-way delay : 94.913006 ms
+
+-- Curve "Flow 2: auto_0_3 ->":
+Median per-packet one-way delay          : 61.881065 ms
+Average per-packet one-way delay         : 72.331850 ms
+95th percentile per-packet one-way delay : 120.007992 ms
+

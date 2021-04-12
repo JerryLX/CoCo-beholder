@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.803664
+
+-- Curve "Flow 1: copa ->":
+Average throughput    : 4.993319 Mbps
+Average one-way delay : 103.416373 ms
+Loss                  : 5.261538 %
+
+-- Curve "Flow 2: auto_0_9 ->":
+Average throughput    : 14.753589 Mbps
+Average one-way delay : 105.732414 ms
+Loss                  : 1.558241 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: copa ->":
+Median per-packet one-way delay          : 107.786894 ms
+Average per-packet one-way delay         : 103.416373 ms
+95th percentile per-packet one-way delay : 117.907047 ms
+
+-- Curve "Flow 2: auto_0_9 ->":
+Median per-packet one-way delay          : 109.391928 ms
+Average per-packet one-way delay         : 105.732414 ms
+95th percentile per-packet one-way delay : 117.628098 ms
+

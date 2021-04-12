@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.758569
+
+-- Curve "Flow 1: ledbat ->":
+Average throughput    : 15.178250 Mbps
+Average one-way delay : 81.357633 ms
+Loss                  : 0.370197 %
+
+-- Curve "Flow 2: auto_0_5 ->":
+Average throughput    : 4.229347 Mbps
+Average one-way delay : 66.641101 ms
+Loss                  : 0.038592 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: ledbat ->":
+Median per-packet one-way delay          : 77.648878 ms
+Average per-packet one-way delay         : 81.357633 ms
+95th percentile per-packet one-way delay : 112.257957 ms
+
+-- Curve "Flow 2: auto_0_5 ->":
+Median per-packet one-way delay          : 66.469908 ms
+Average per-packet one-way delay         : 66.641101 ms
+95th percentile per-packet one-way delay : 83.818197 ms
+

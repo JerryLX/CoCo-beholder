@@ -1,0 +1,26 @@
+== Average and loss statistics ==
+
+Average Jain's index  : 0.756023
+
+-- Curve "Flow 1: taova ->":
+Average throughput    : 4.312266 Mbps
+Average one-way delay : 79.576511 ms
+Loss                  : 2.256571 %
+
+-- Curve "Flow 2: auto_0_8 ->":
+Average throughput    : 15.655498 Mbps
+Average one-way delay : 86.054902 ms
+Loss                  : 1.478053 %
+
+===== Per-packet statistics =====
+
+-- Curve "Flow 1: taova ->":
+Median per-packet one-way delay          : 73.894024 ms
+Average per-packet one-way delay         : 79.576511 ms
+95th percentile per-packet one-way delay : 117.032051 ms
+
+-- Curve "Flow 2: auto_0_8 ->":
+Median per-packet one-way delay          : 84.866047 ms
+Average per-packet one-way delay         : 86.054902 ms
+95th percentile per-packet one-way delay : 117.596865 ms
+
