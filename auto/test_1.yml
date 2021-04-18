@@ -1,0 +1,9 @@
+- direction: ->
+  flows: 1
+  scheme: auto_0_1
+  start: 0
+- direction: ->
+  flows: 2
+  scheme: auto_0_3
+  start: 10
+  end: 20
