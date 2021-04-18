@@ -5,8 +5,8 @@ sudo apt-get -y install net-tools ethtool iproute2 tcpdump lsof procps
 #
 # For Python 2:
 #
-sudo apt-get -y install python-pip
-sudo pip install ipaddress pyyaml dpkt matplotlib numpy
+apt-get -y install python-pip
+pip install ipaddress pyyaml dpkt matplotlib numpy
 #
 # More exactly:
 #
